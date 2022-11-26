@@ -1,0 +1,75 @@
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+}
+
+.button {
+    background-color: antiquewhite;
+    width: 15%;
+    height: 30px;
+    border: 1px solid rgb(12, 177, 75);
+    border-radius: 8px;
+    
+    
+}
+
+.icon-bar {
+    background-color: green;
+    width: 60%;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    
+}
+
+.icon-bar:first-child {
+    margin-top:7px;
+
+}
+
+.logos {
+    width: 85%;
+    margin-left: 20px;
+}
+
+.search {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 80%;
+}
+
+
+.search-icon {
+    border: 1px solid white;
+    height: 15px;
+    width: 95%;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-image {
+    border: 1px solid white;
+    width: 5%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.two {
+    background-color: rgb(125, 131, 129);
+    width: 20%;
+}
