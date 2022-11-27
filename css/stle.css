@@ -41,6 +41,7 @@
 .logos {
     width: 85%;
     margin-left: 20px;
+    
 }
 
 .search {
@@ -64,12 +65,82 @@
     border: 1px solid white;
     width: 5%;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 10px;
 }
 
 
 .two {
-    background-color: rgb(125, 131, 129);
     width: 20%;
+    
 }
+
+.list-inline {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.list-inline-items {
+    width: 25%;
+}
+.position {
+    position: absolute;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    height: 500px;
+}
+
+.col1 {
+    background-image: url("../images/fruit.jpg");
+    background-color: pink;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+
+.col2 {
+    width: 30%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.row1 {
+    background-color: pink;
+    height: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.row2 {
+    background-color: pink;
+    height: 45%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.top {
+    height: 60px;
+    width: 40%;
+}
+
+.main {
+    display: flex;
+    background-color: aquamarine;
+    height: 400px;
+    width: 100%;
+}
+
+
+
